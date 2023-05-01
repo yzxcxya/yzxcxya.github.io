@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>react入门</title>
+      <link href="/posts/f258d3a1.html"/>
+      <url>/posts/f258d3a1.html</url>
+      
+        <content type="html"><![CDATA[<h5 id="1-安装-oh-my-posh"><a href="#1-安装-oh-my-posh" class="headerlink" title="1. 安装 oh-my-posh"></a>1. 安装 <em>oh-my-posh</em></h5><p><a href="https://ohmyposh.dev/">Oh My Posh 官网</a></p><p><strong>修改git中文文件名乱码：</strong></p><p>乱码前<img src="https://picture-bucket-1306212000.cos.ap-nanjing.myqcloud.com/markdown/image-20220418115841397.png" alt="image-20220418115841397"></p><p>运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global core.quotepath false</span><br></pre></td></tr></table></figure><p>解决后</p><p><img src="https://picture-bucket-1306212000.cos.ap-nanjing.myqcloud.com/markdown/image-20220418115938594.png" alt="image-20220418115938594"></p><h5 id="2-安装-PSReadLine"><a href="#2-安装-PSReadLine" class="headerlink" title="2.安装 PSReadLine"></a>2.安装 <em>PSReadLine</em></h5><p>PSReadLine能够记录历史输入的命令，当下次输入命令时能够自动补全和提示</p><p>安装最新版本<code>PSReadLine</code>，在power shell中执行以下命令:</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Install-Module PSReadLine  -Force</span><br></pre></td></tr></table></figure><p>再修改配置文件，输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">notepad $profile</span><br></pre></td></tr></table></figure><p>系统会自动弹出这个配置文件让你编辑</p><p>接着在这个文件中添加两行</p><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Import-Module PSReadLine</span><br><span class="line">Set-PSReadLineOption -PredictionSource History</span><br></pre></td></tr></table></figure><p>效果如下：<img src="https://picture-bucket-1306212000.cos.ap-nanjing.myqcloud.com/markdown/QQ%E6%88%AA%E5%9B%BE20220404162700.png" alt="QQ截图20220404162700"></p><h5 id="3-修改默认背景图片"><a href="#3-修改默认背景图片" class="headerlink" title="3.修改默认背景图片"></a>3.修改默认背景图片</h5><p>打开power shell 的设置，选择打开JSON 文件</p><p><img src="https://picture-bucket-1306212000.cos.ap-nanjing.myqcloud.com/markdown/image-20220403163222810.png" alt="image-20220403163222810"></p><p>编辑json 文件，输入下面图片路径就行，透明度随自己调</p><p><img src="https://picture-bucket-1306212000.cos.ap-nanjing.myqcloud.com/markdown/image-20220403163416797.png" alt="image-20220403163416797"></p><p>我的图片是下面这个，想用的话可以直接右键保存</p><p><img src="https://picture-bucket-1306212000.cos.ap-nanjing.myqcloud.com/markdown/black-desk.webp" alt="black-desk"></p><p><img src="https://picture-bucket-1306212000.cos.ap-nanjing.myqcloud.com/markdown/white-desk.webp" alt="white-desk"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vue入门</title>
+      <link href="/posts/5d8ad28b.html"/>
+      <url>/posts/5d8ad28b.html</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">哈哈</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">啊大大</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
