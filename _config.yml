@@ -103,7 +103,9 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/yzxcxya/yzxcxya.github.io.git
+  branch: master
 
 auto_category:  #自动按文件夹层级生成目录
   enable: true
