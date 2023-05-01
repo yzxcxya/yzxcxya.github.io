@@ -1,2 +1,2 @@
 # yzxcxya.github.io
-博客仓库
+个人博客
