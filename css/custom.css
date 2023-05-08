@@ -842,8 +842,8 @@ h6::before {
 }
 
 svg.icon {
-    width: 1.28em;
-    height: 1.28em;
+    width: 1.10em;
+    height: 1.10em;
     vertical-align: -0.35em;
     fill: currentColor;
     overflow: hidden;
@@ -904,3 +904,4 @@ svg.icon {
     transition: .3s;
     top: -8px
 }
+
